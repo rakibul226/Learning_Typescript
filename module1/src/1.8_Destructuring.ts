@@ -1,6 +1,7 @@
 {
+    // Destructuring
 
-    //object destructuring
+    //-------object destructuring
     const user = {
         id: 20-42277-1,
         name:{
@@ -12,13 +13,13 @@
     }
 
     // const {contactNo,name:{firstName} = user;
-    const {contactNo,name:{firstName : name}} = user; //use firstName as name
+    const {contactNo,name:{firstName : name}} = user; //  name alias || use firstName as name
 
 
 
-    
 
-    //array destructuring
+
+    //---------array destructuring
     const myFriends = ["asad","joy","santo","sagor","sojib"]
 
     // const [a,b,c] = myFriends; 
