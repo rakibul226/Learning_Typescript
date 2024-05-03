@@ -30,7 +30,7 @@
     // }
 
 
-    type Student = {
+    type Student = {  //whenever we declare a type the name Should start with a capital chart
         name:string;
         age:number;
         contactNo?:string;
@@ -65,8 +65,6 @@
 
     type IsNumber = number;
     const phone : IsNumber = 98212323
-
-
 
     type Add = (num1:number,num2:number)=> number;
     const add: Add = (num1, num2) => num1+num2;
