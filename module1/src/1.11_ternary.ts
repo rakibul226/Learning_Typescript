@@ -1,7 +1,6 @@
 {
     //Ternary operator , Optional chaining, Nullish coalescing operator
 
-
     const age: number = 1;
 
     // if(age >=18){
@@ -10,7 +9,6 @@
     // else{
     //     console.log("not adult");
     // }
-
 
     // //ternary operator
         const isAdult = age >= 18 ? "adult" : "not adult";
@@ -50,7 +48,6 @@
                 presentAdd:"dhaka",            
             }
         }
-
 
         const permanentADD = student?.address?.permanentADD ?? "No permanent address";
         console.log({permanentADD});
